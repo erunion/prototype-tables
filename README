@@ -1,0 +1,12 @@
+prototype-tables is a Prototype based document generation class that allows for
+creation of documents. Obviously.
+
+prototype-tables was built for Prototype 1.5.1 but may work with newer versions,
+I don't know. I haven't touched Prototype in 3 years since I built this back in
+2007 for a work-related project at an old job. I don't even know if this code
+even works, however I vaugely remember it *only* working in Firefox 2.
+
+You're more than welcome to do whatever you want with this, only putting it in
+GitHub because I don't want to delete it off my backups and I was fairly proud
+of myself and my early JS skills when I wrote it; so basically a long winded
+version of "shits and giggles".
