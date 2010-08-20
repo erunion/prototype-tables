@@ -1,4 +1,4 @@
-prototype-tables is a Prototype based document generation class that allows for
+prototype-tables is a Prototype-based document generation class that allows for
 creation of documents. Obviously.
 
 prototype-tables was built for Prototype 1.5.1 but may work with newer versions,
@@ -10,3 +10,11 @@ You're more than welcome to do whatever you want with this, only putting it in
 GitHub because I don't want to delete it off my backups and I was fairly proud
 of myself and my early JS skills when I wrote it; so basically a long winded
 version of "shits and giggles".
+
+That said, here's an example on how to use it:
+  new prototypeTables('div', {
+    attributes: {'id': 'myfirstdiv'},
+    styles: {'background-color': '#66FFCC', 'padding': '5px'},
+    classes: ['firstclass', 'secondclass'],
+    add_text: 'Here is an example div.'
+  }, 'myparent');

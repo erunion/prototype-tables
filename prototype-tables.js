@@ -18,8 +18,8 @@
  *	SOFTWARE.
  */
 
-var jsLayout = Class.create();
-jsLayout.prototype = {
+var prototypeTables = Class.create();
+prototypeTables.prototype = {
 	initialize: function(tag, option, parent_id) {
 		this.tag = tag;
  		this.element = this.create('element', this.tag);
